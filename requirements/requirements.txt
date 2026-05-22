@@ -1,6 +1,6 @@
 How you can add photos:
 1. Add them to the existing corresponding folder
-2. IT MUST BE IN THE FORMAT: [title], [year] OR IMAGE WITHIN [title][number]
+2. IT MUST BE IN THE FORMAT: [title] OR IMAGE WITHIN [title][number]
   - it uses the title and year from the main photos to make the inner page
   - IMAGE WITHIN tells it to put it inside the page of the picture from title, number is needed to tell the order and differntiate it from the others
 3 MUST BE IN THE FORMAT: .jpg, .jpeg, .png, .gif, YOUR WEIRD APPLE FILE TYPE (.heic) WILL NOT WORK
