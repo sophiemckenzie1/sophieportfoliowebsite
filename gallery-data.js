@@ -136,6 +136,11 @@ var PATTERNS = [
     "file": "surfaceandpattern/Pears Repeat, 2026.PNG",
     "title": "Pears Repeat",
     "year": "2026"
+  },
+  {
+    "file": "surfaceandpattern/Dachshund Pattern.png",
+    "title": "Dachshund Pattern",
+    "year": null
   }
 ];
 
@@ -148,6 +153,9 @@ var PATTERN_WITHIN = {
   ],
   "Pears Repeat": [
     "surfaceandpattern/IMAGE WITHIN Pears Repeat1.PNG"
+  ],
+  "Dachshund Pattern": [
+    "surfaceandpattern/IMAGE WITHIN Dachshund Pattern.png"
   ]
 };
 
