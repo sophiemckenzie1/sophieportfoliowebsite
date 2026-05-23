@@ -79,7 +79,7 @@ var ILLUSTRATIONS = [
     "year": "2026"
   },
   {
-    "file": "illustrations/Two Tigers.jpeg",
+    "file": "illustrations/Two Tigers.png",
     "title": "Two Tigers",
     "year": null
   },
