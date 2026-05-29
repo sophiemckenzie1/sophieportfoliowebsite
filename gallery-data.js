@@ -4,89 +4,118 @@ var CONTACT_HREF = 'mailto:sophiecmckenzie28@gmail.com';
 
 var ILLUSTRATIONS = [
   {
-    "file": "illustrations/Aliens, 2025.PNG",
-    "title": "Aliens",
-    "year": "2025"
-  },
-  {
-    "file": "illustrations/American Woodcock, 2026.PNG",
-    "title": "American Woodcock",
-    "year": "2026"
-  },
-  {
-    "file": "illustrations/Bath Time, 2026..png",
-    "title": "Bath Time",
-    "year": "2026"
-  },
-  {
-    "file": "illustrations/Breakfast Party, 2026..png",
-    "title": "Breakfast Party",
-    "year": "2026"
+    "file": "illustrations/Scuba Diving.png",
+    "title": "Scuba Diving",
+    "year": null,
+    "thumb": "thumbs/illustrations/Scuba Diving.jpg"
   },
   {
     "file": "illustrations/Bug Picnic, 2026..PNG",
     "title": "Bug Picnic",
-    "year": "2026"
+    "year": "2026",
+    "thumb": "thumbs/illustrations/Bug Picnic, 2026.jpg"
+  },
+  {
+    "file": "illustrations/American Woodcock, 2026.PNG",
+    "title": "American Woodcock",
+    "year": "2026",
+    "thumb": "thumbs/illustrations/American Woodcock, 2026.jpg"
+  },
+  {
+    "file": "illustrations/Aliens, 2025.PNG",
+    "title": "Aliens",
+    "year": "2025",
+    "thumb": "thumbs/illustrations/Aliens, 2025.jpg"
+  },
+  {
+    "file": "illustrations/Apple Juicy.png",
+    "title": "Apple Juicy",
+    "year": null,
+    "thumb": "thumbs/illustrations/Apple Juicy.jpg"
+  },
+  {
+    "file": "illustrations/Bath Time, 2026..png",
+    "title": "Bath Time",
+    "year": "2026",
+    "thumb": "thumbs/illustrations/Bath Time, 2026.jpg"
+  },
+  {
+    "file": "illustrations/Breakfast Party, 2026..png",
+    "title": "Breakfast Party",
+    "year": "2026",
+    "thumb": "thumbs/illustrations/Breakfast Party, 2026.jpg"
   },
   {
     "file": "illustrations/Coven Tots, 2025.png",
     "title": "Coven Tots",
-    "year": "2025"
+    "year": "2025",
+    "thumb": "thumbs/illustrations/Coven Tots, 2025.jpg"
   },
   {
     "file": "illustrations/Critter Crew.jpeg",
     "title": "Critter Crew",
-    "year": null
+    "year": null,
+    "thumb": "thumbs/illustrations/Critter Crew.jpg"
   },
   {
     "file": "illustrations/Fisherman, 2026..jpg",
     "title": "Fisherman",
-    "year": "2026"
+    "year": "2026",
+    "thumb": "thumbs/illustrations/Fisherman, 2026.jpg"
   },
   {
     "file": "illustrations/Fishing.jpeg",
     "title": "Fishing",
-    "year": null
+    "year": null,
+    "thumb": "thumbs/illustrations/Fishing.jpg"
   },
   {
     "file": "illustrations/Invasive Snails Poster, 2026.PNG",
     "title": "Invasive Snails Poster",
-    "year": "2026"
+    "year": "2026",
+    "thumb": "thumbs/illustrations/Invasive Snails Poster, 2026.jpg"
   },
   {
     "file": "illustrations/Leopard.jpeg",
     "title": "Leopard",
-    "year": null
+    "year": null,
+    "thumb": "thumbs/illustrations/Leopard.jpg"
   },
   {
     "file": "illustrations/Minnie.jpeg",
     "title": "Minnie",
-    "year": null
+    "year": null,
+    "thumb": "thumbs/illustrations/Minnie.jpg"
   },
   {
     "file": "illustrations/PO Box Outerspace, 2026.PNG",
     "title": "PO Box Outerspace",
-    "year": "2026"
+    "year": "2026",
+    "thumb": "thumbs/illustrations/PO Box Outerspace, 2026.jpg"
   },
   {
     "file": "illustrations/Skeleton Flowers, 2025.PNG",
     "title": "Skeleton Flowers",
-    "year": "2025"
+    "year": "2025",
+    "thumb": "thumbs/illustrations/Skeleton Flowers, 2025.jpg"
   },
   {
     "file": "illustrations/Snake, 2026.png",
     "title": "Snake",
-    "year": "2026"
+    "year": "2026",
+    "thumb": "thumbs/illustrations/Snake, 2026.jpg"
   },
   {
     "file": "illustrations/Two Tigers.png",
     "title": "Two Tigers",
-    "year": null
+    "year": null,
+    "thumb": "thumbs/illustrations/Two Tigers.jpg"
   },
   {
     "file": "illustrations/Warby Parker, 2026..png",
     "title": "Warby Parker",
-    "year": "2026"
+    "year": "2026",
+    "thumb": "thumbs/illustrations/Warby Parker, 2026.jpg"
   }
 ];
 
@@ -115,32 +144,38 @@ var PATTERNS = [
   {
     "file": "surfaceandpattern/Apple Juicy Repeat, 2026..png",
     "title": "Apple Juicy Repeat",
-    "year": "2026"
+    "year": "2026",
+    "thumb": "thumbs/surfaceandpattern/Apple Juicy Repeat, 2026.jpg"
   },
   {
     "file": "surfaceandpattern/Critter Bed Flat, 2026.PNG",
     "title": "Critter Bed Flat",
-    "year": "2026"
-  },
-  {
-    "file": "surfaceandpattern/Flower Sheets, 2026..PNG",
-    "title": "Flower Sheets",
-    "year": "2026"
-  },
-  {
-    "file": "surfaceandpattern/Flowers Repeat.png",
-    "title": "Flowers Repeat",
-    "year": null
-  },
-  {
-    "file": "surfaceandpattern/Pears Repeat, 2026.PNG",
-    "title": "Pears Repeat",
-    "year": "2026"
+    "year": "2026",
+    "thumb": "thumbs/surfaceandpattern/Critter Bed Flat, 2026.jpg"
   },
   {
     "file": "surfaceandpattern/Dachshund Pattern.png",
     "title": "Dachshund Pattern",
-    "year": null
+    "year": null,
+    "thumb": "thumbs/surfaceandpattern/Dachshund Pattern.jpg"
+  },
+  {
+    "file": "surfaceandpattern/Flower Sheets, 2026..PNG",
+    "title": "Flower Sheets",
+    "year": "2026",
+    "thumb": "thumbs/surfaceandpattern/Flower Sheets, 2026.jpg"
+  },
+  {
+    "file": "surfaceandpattern/Flowers Repeat.png",
+    "title": "Flowers Repeat",
+    "year": null,
+    "thumb": "thumbs/surfaceandpattern/Flowers Repeat.jpg"
+  },
+  {
+    "file": "surfaceandpattern/Pears Repeat, 2026.PNG",
+    "title": "Pears Repeat",
+    "year": "2026",
+    "thumb": "thumbs/surfaceandpattern/Pears Repeat, 2026.jpg"
   }
 ];
 
@@ -151,34 +186,41 @@ var PATTERN_WITHIN = {
   "Critter Bed Flat": [
     "surfaceandpattern/IMAGE WITHIN Critter Bed Flat1.png"
   ],
-  "Pears Repeat": [
-    "surfaceandpattern/IMAGE WITHIN Pears Repeat1.PNG"
-  ],
   "Dachshund Pattern": [
     "surfaceandpattern/IMAGE WITHIN Dachshund Pattern.png"
+  ],
+  "Pears Repeat": [
+    "surfaceandpattern/IMAGE WITHIN Pears Repeat1.PNG"
   ]
 };
 
 var SKETCHES = [
   {
-    "file": "sketches/21C06121-E63F-486A-B1BD-51C4BBF195CD_1_105_c.jpeg"
+    "file": "sketches/21C06121-E63F-486A-B1BD-51C4BBF195CD_1_105_c.jpeg",
+    "thumb": "thumbs/sketches/21C06121-E63F-486A-B1BD-51C4BBF195CD_1_105_c.jpg"
   },
   {
-    "file": "sketches/37DB1F8D-52FC-4995-BA09-2034A9DBA577_1_105_c.jpeg"
+    "file": "sketches/37DB1F8D-52FC-4995-BA09-2034A9DBA577_1_105_c.jpeg",
+    "thumb": "thumbs/sketches/37DB1F8D-52FC-4995-BA09-2034A9DBA577_1_105_c.jpg"
   },
   {
-    "file": "sketches/9257C92E-6D49-4FBF-AD30-774C4ADFE315_1_105_c.jpeg"
+    "file": "sketches/9257C92E-6D49-4FBF-AD30-774C4ADFE315_1_105_c.jpeg",
+    "thumb": "thumbs/sketches/9257C92E-6D49-4FBF-AD30-774C4ADFE315_1_105_c.jpg"
   },
   {
-    "file": "sketches/IMG_0611.PNG"
+    "file": "sketches/IMG_0611.PNG",
+    "thumb": "thumbs/sketches/IMG_0611.jpg"
   },
   {
-    "file": "sketches/IMG_0710.PNG"
+    "file": "sketches/IMG_0710.PNG",
+    "thumb": "thumbs/sketches/IMG_0710.jpg"
   },
   {
-    "file": "sketches/IMG_0716.PNG"
+    "file": "sketches/IMG_0716.PNG",
+    "thumb": "thumbs/sketches/IMG_0716.jpg"
   },
   {
-    "file": "sketches/IMG_0717.PNG"
+    "file": "sketches/IMG_0717.PNG",
+    "thumb": "thumbs/sketches/IMG_0717.jpg"
   }
 ];

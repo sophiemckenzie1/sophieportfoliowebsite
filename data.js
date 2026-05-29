@@ -31,7 +31,7 @@ function buildHeader(activePage) {
 
   return '<header>\n' +
     '  <div class="header-top">\n' +
-    '    <img src="logos/IMG_1137.png" alt="Sophie McKenzie logo" class="logo-img">\n' +
+    '    <img src="logos/logo.png" alt="Sophie McKenzie logo" class="logo-img">\n' +
     '  </div>\n' +
     '  <nav>\n' +
     '    ' + links + '\n' +
@@ -46,7 +46,7 @@ function buildGalleryGrid(items, galleryType) {
       var sketchUrl = 'image.html?gallery=sketches&file=' + encodeURIComponent(item.file);
       return '<a href="' + sketchUrl + '" class="gallery-item">\n' +
         '  <div class="gallery-item-inner">\n' +
-        '    <img src="' + toSrc(item.file) + '" alt="Sketch" loading="lazy">\n' +
+        '    <img src="' + toSrc(item.thumb || item.file) + '" alt="Sketch" loading="lazy">\n' +
         '  </div>\n' +
         '</a>';
     }
@@ -54,7 +54,7 @@ function buildGalleryGrid(items, galleryType) {
       '&title=' + encodeURIComponent(item.title);
     return '<a href="' + detailUrl + '" class="gallery-item">\n' +
       '  <div class="gallery-item-inner">\n' +
-      '    <img src="' + toSrc(item.file) + '" alt="' + escHtml(item.title) + '" loading="lazy">\n' +
+      '    <img src="' + toSrc(item.thumb || item.file) + '" alt="' + escHtml(item.title) + '" loading="lazy">\n' +
       '    <div class="item-title-overlay">' + escHtml(item.title) + '</div>\n' +
       '  </div>\n' +
       '</a>';

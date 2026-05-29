@@ -1,0 +1,11 @@
+{
+  "name": "sophiewebsite",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node build.js"
+  },
+  "dependencies": {
+    "sharp": "^0.33.0"
+  }
+}
